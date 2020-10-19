@@ -1,0 +1,115 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #f7f6f6;
+}
+
+input,input:active,input:hover{
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.main-header{
+background:linear-gradient(to right,#505688,#3c8683,#3dc347);
+font-size: 1.2em;
+color: #fff;
+}
+.main-header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .8rem;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+.main-login{
+
+    width: 33%;
+    min-height: 56vh;
+    background: linear-gradient(45deg, #288a8a, #702e86);
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 4%;
+    display: flex;
+    flex-flow: column;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #00000063, -4px -4px 7px #fff;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.main-login input{
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0.2px 0.2px 0px #00000063, -4px -4px 7px #fff;
+    border: none;
+}
+
+.login{
+    margin-top: 5px;
+    padding: 1rem;
+    width: 27%;
+    margin: auto;
+    background-color: darkslateblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    box-shadow: 4px 4px 11px #698a69, -3px -4px 2px #fff;
+}
+
+.retire,.deposit,.ammountHolder{
+    display:none;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: flex;
+}
+
+.ammountHolder,.deposit,.retire{
+    flex-direction: column;
+    padding: 2rem;
+    background: linear-gradient(45deg, #288a8a, #702e86);
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    font-size: 1.5rem;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.logout:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.modal-content{
+    background: linear-gradient(45deg, #288a8a, #702e86) !important;
+    color:#fff;
+}
+.modal-content input{
+    padding: 1rem;
+}
